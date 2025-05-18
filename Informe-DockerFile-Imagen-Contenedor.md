@@ -69,25 +69,34 @@ Cuando se combinan tecnologías como React, Vite y Docker, se logra un entorno d
 Figura 1. **"Fronted Ejecutado"**
 
 
+<img width="1223" alt="front" src="https://github.com/user-attachments/assets/fa8b43a0-f4fa-4aac-8a8d-6b006be61a15" />
 
 **Paso 2:** Creamos un archivo `Dockerfile` en la raíz del proyecto, y escribimos su respectivo contenido, que son instrucciones para su construcción.
 
 Figura 2. **"Archivo Dockerfile creado e introducidas sus instrucciones"**
 
+<img width="1164" alt="dockerfile" src="https://github.com/user-attachments/assets/02a6ef25-325c-4f98-89e2-747b0239d3d3" />
+
 **Paso 3:** Construimos la imagen personalizada con el comando `build`, y verificamos su creacion.
 
 Figura 3. **"Comando docker build -t leo-frontend"**
 
+<img width="742" alt="images-comand" src="https://github.com/user-attachments/assets/5c0a54b4-831f-4925-b65c-70baf645701e" />
+<img width="559" alt="docker-images" src="https://github.com/user-attachments/assets/c1bedf20-119b-48cd-ab16-e4743c314215" />
 
-**Paso 4:** Creada la imagen, la ejecutamos junto con el contenedor `suda-fronted-container`, también se define asigna el puerto, realizamos su verificación:
+
+
+**Paso 4:** Creada la imagen, la ejecutamos junto con el contenedor `suda-fronted-container`, también se asigna el puerto, realizamos su verificación:
 
 Figura 4. **"Comando docker run -d -p  "**
 
+<img width="1160" alt="contenedor" src="https://github.com/user-attachments/assets/f0a332ab-358f-48da-ac5e-5398f939bfbf" />
 
 **Paso 5:** Accedemos al frontend desde el navegador ingresando a `http://localhost:8000`.
 
 Figura 5. **"Ventana del frontend ejecutado en el navegador"**
 
+<img width="984" alt="puerto" src="https://github.com/user-attachments/assets/eb46c7c9-5544-410e-9208-ff1e58dc3055" />
 
 ## 9. Resultados esperados
 
